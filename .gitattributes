@@ -1,1 +1,5 @@
-./installers filter=lfs diff=lfs merge=lfs -text
+installers/docker** filter=lfs diff=lfs merge=lfs -text
+installers/k3d** filter=lfs diff=lfs merge=lfs -text
+installers/k3s** filter=lfs diff=lfs merge=lfs -text
+installers/kubectl** filter=lfs diff=lfs merge=lfs -text
+installers/** filter=lfs diff=lfs merge=lfs -text
